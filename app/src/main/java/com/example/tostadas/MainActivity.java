@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Integer contador = Integer.parseInt(showCount.getText().toString()) + 1;
-                showCount.setText(contador);
+                showCount.setText(contador.toString());
             }
         });
     }

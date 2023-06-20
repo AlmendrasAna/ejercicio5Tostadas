@@ -21,7 +21,7 @@
         android:id="@+id/showCount"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="#FFD600"
+        android:background="#FFD861"
         android:gravity="center"
         android:text="0"
         android:textSize="96sp"
