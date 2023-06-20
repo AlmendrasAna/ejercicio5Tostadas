@@ -18,24 +18,27 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/mostrarContador"
+        android:id="@+id/showCount"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="#FFE141"
+        android:background="#FFD600"
         android:gravity="center"
         android:text="0"
         android:textSize="96sp"
-        app:layout_constraintBottom_toTopOf="@+id/clickButton"
+        app:layout_constraintBottom_toTopOf="@+id/buttonCount"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonToast" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonToast"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/clickButton"
+        android:id="@+id/buttonCount"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="Count"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
